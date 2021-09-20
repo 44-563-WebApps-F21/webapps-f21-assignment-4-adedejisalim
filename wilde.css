@@ -20,3 +20,24 @@ p.stage-direction:hover{
 .phipps{
     color:hotpink;
 }
+
+th {
+    padding: 15px;
+    text-align: center;
+    background-color:firebrick;
+}
+
+td{
+    padding: 15px;
+    text-align: left;
+  
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+table{ 
+    border:solid 7px;
+    border-color:#B22222 #FEB9B9 #FEB9B9 #B22222; 
+}
