@@ -17,8 +17,20 @@ p.stage-direction:hover{
     color:darkolivegreen
 }
 
+.goring:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 20;
+}
+
 .phipps{
     color:hotpink;
+}
+
+.phipps:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border-radius: 20;
 }
 
 th {
@@ -40,4 +52,8 @@ tr:nth-child(even) {
 table{ 
     border:solid 7px;
     border-color:#B22222 #FEB9B9 #FEB9B9 #B22222; 
+}
+
+p.goring,p.phipps:hover{
+    
 }
