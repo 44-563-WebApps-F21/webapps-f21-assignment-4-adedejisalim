@@ -54,6 +54,33 @@ table{
     border-color:#B22222 #FEB9B9 #FEB9B9 #B22222; 
 }
 
-p.goring,p.phipps:hover{
-    
+.navbar {
+    margin-top:20px;
+    background-color: firebrick;
+    overflow: hidden;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Change color on hover*/
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*Add a color to active link*/
+.navbar a.active {
+    background-color: #04AA6D;
+    color: white;
 }
